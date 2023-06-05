@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img class="dis  " src="alarm.png" alt=""></img>
+        <img class="  anim " src="alarm.png" alt=""></img>
+       
+        <div class="time">
+            <div class="hrs"></div>
+            <div class="mns"></div>
+            <div class="sec"></div>
+            <div class="maridian"></div>
+        </div>
+            
+        <div class="select-area">
+               <select name="" id="" onchange="change()" >
+                <option value="hours"  hidden>HRs</option>
+               </select>
+
+               <select name="" id="" onchange="change()">
+                <option value="minutes" hidden >MINs</option>
+               </select>
+
+               <select name="" id="" onchange="change()">
+                <option value="campm" hidden>AM/PM</option>
+               </select> 
+             </div>
+               <div class="dtime"><h3>Alarm set for </h3>
+                <h4> 04:30</h4>
+              </div>
+              <button disabled="true" class="s_btn">SET ALARM</button>
+      
+     </div>
+          <script src="app.js"></script>
+</body>
+</html>
